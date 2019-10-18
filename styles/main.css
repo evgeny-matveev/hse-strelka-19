@@ -23,6 +23,7 @@ a {
   background-position: center;
   height: 85vh;
   text-align: center;
+  position: relative;
 }
 .hero nav {
   background: #006AFF;
@@ -39,6 +40,18 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 14px;
+}
+.hero nav ul li:last-child {
+  padding-left: 40px;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 110px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  letter-spacing: 1px;
 }
 
 
