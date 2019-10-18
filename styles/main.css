@@ -114,6 +114,42 @@ a {
 }
 
 
+/*
+  Секция с книгами
+*/
+
+.books {
+  height: 85vh;
+  background-color: var(--main-color);
+}
+.books ul {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+.books ul li img {
+  width: 220px;
+  margin: 0 10px;
+  transition: transform 300ms ease;
+}
+.books ul li img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.books .strelka-logo {
+  display: inline-block;
+  margin-top: 36px;
+  width: 384px;
+  height: 136px;
+  background-image: url(../img/strelka-sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -251px;
+}
+
+
+
+
+
 
 
 /* EOF */
