@@ -1,1 +1,52 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}
+
+
+/*
+  Секция HERO
+*/
+
+.hero {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  text-align: center;
+}
+.hero nav {
+  background: #006AFF;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.hero a {
+  color: #fff;
+}
+.hero nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* EOF */
